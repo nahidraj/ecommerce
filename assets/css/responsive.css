@@ -112,6 +112,10 @@
   .checkout .billing-information .title {
     margin-top: 10px;
   }
+
+  .modal-dialog {
+    max-width: 698px;
+  }
 }
 
 @media (max-width:767.98px) {
@@ -162,6 +166,15 @@
 
   .wishlist_area .product-remove-msg p {
     font-size: 14px;
+  }
+
+  .modal-dialog {
+    max-width: 420px;
+  }
+
+  .quick-view-main .quick-view-info {
+    padding-right: 0;
+    padding-top: 20px;
   }
 }
 

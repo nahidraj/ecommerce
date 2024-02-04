@@ -86,17 +86,99 @@
             </div>
             <div class="menu_option">
               <ul class="list-unstyled">
-                <li class="search position-relative">
+                <li class="menu_option_li search position-relative">
                   <div class="search_fields position-relative">
                     <input type="text" placeholder="Search...">
                     <button class="search_btn" type="button"><i class="fa fa-search"></i></button>
                   </div>
                 </li>
-                <li class="wishlist">
-                  <a href="wishlist.html"><i class="far fa-heart"></i> <sup>1</sup></a>
+                <li class="menu_option_li wishlist">
+                  <a href="wishlist.html" class="main_option"><i class="far fa-heart"></i> <sup>1</sup></a>
                 </li>
-                <li class="cart">
-                  <a href="cart.html"><i class="fas fa-shopping-cart"></i> <sup>1</sup></a>
+                <li class="menu_option_li cart position-relative">
+                  <a href="cart.html" class="main_option"><i class="fas fa-shopping-cart"></i> <sup>1</sup></a>
+                  <div class="cart-option">
+                    <div class="cart-prd">
+                      <ul>
+                        <li class="d-flex align-items-center">
+                          <div class="img">
+                            <a href=""><img src="assets/img/34.png" alt="03" width="80" class="img-fluid"></a>
+                          </div>
+                          <div class="text">
+                            <a href="">Strawberry</a>
+                            <p>1 × $40.00</p>
+                          </div>
+                          <div class="button">
+                            <button type="button"><i class="far fa-trash-alt"></i></button>
+                          </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <div class="img">
+                            <a href=""><img src="assets/img/34.png" alt="03" width="80" class="img-fluid"></a>
+                          </div>
+                          <div class="text">
+                            <a href="">Strawberry</a>
+                            <p>1 × $40.00</p>
+                          </div>
+                          <div class="button">
+                            <button type="button"><i class="far fa-trash-alt"></i></button>
+                          </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <div class="img">
+                            <a href=""><img src="assets/img/34.png" alt="03" width="80" class="img-fluid"></a>
+                          </div>
+                          <div class="text">
+                            <a href="">Strawberry</a>
+                            <p>1 × $40.00</p>
+                          </div>
+                          <div class="button">
+                            <button type="button"><i class="far fa-trash-alt"></i></button>
+                          </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <div class="img">
+                            <a href=""><img src="assets/img/34.png" alt="03" width="80" class="img-fluid"></a>
+                          </div>
+                          <div class="text">
+                            <a href="">Strawberry</a>
+                            <p>1 × $40.00</p>
+                          </div>
+                          <div class="button">
+                            <button type="button"><i class="far fa-trash-alt"></i></button>
+                          </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                          <div class="img">
+                            <a href=""><img src="assets/img/34.png" alt="03" width="80" class="img-fluid"></a>
+                          </div>
+                          <div class="text">
+                            <a href="">Strawberry</a>
+                            <p>1 × $40.00</p>
+                          </div>
+                          <div class="button">
+                            <button type="button"><i class="far fa-trash-alt"></i></button>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="cart-bottom">
+                      <div class="cart-price">
+                        <div class="d-flex justify-content-between">
+                          <div class="total">
+                            <h5>Total</h5>
+                          </div>
+                          <div class="price">
+                            <span>$ 200</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cart-action d-flex justify-content-between">
+                        <a href="">View Cart</a>
+                        <a href="">Checkout</a>
+                      </div>
+                    </div>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -209,6 +291,69 @@
     </section>
     <!-- banner area end -->
     <!-- products area start -->
+    <!-- quick view modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="quick-view-main">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <div class="quick-view-image">
+                    <div class="">
+                      <div class="image-slider">
+                        <img src="assets/img/shop_details01.jpg" alt="shop_details01" class="img-fluid w-100">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="quick-view-info">
+                    <h4>Organic Cabbage</h4>
+                    <div class="review">
+                      <ul>
+                        <li>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="far fa-star" aria-hidden="true"></i>
+                        </li>
+                        <li>(1 customer review)</li>
+                      </ul>
+                    </div>
+                    <div class="price">
+                      <h3>$20.99 <span>$21.50</span></h3>
+                    </div>
+                    <div class="button">
+                      <button class="stock-btn">Available: <span> In stock</span></button>
+                    </div>
+                    <div class="category">
+                      <p>Category: <span><a href="">Hand Watch</a>, <a href="">Smartwatch</a>, <a
+                            href="">Phone</a></span>
+                      </p>
+                    </div>
+                    <div class="quantity-main d-flex">
+                      <div class="add-to-cart">
+                        <a href="">Add to cart</a>
+                      </div>
+                      <div class="quick-acc d-flex">
+                        <div class="wishlist">
+                          <a href=""><i class="far fa-heart" aria-hidden="true"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <section class="products_area">
       <div class="container">
         <div class="section_title">
@@ -217,7 +362,7 @@
         <div class="row g-4">
           <div class="col-lg-3 col-sm-6">
             <div class="products_item">
-              <button class="quick_view">Quick View</button>
+              <button class="quick_view" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick View</button>
               <div class="prd_option">
                 <ul class="list-unstyled">
                   <li><button class="cmn_btn wishlist"><i class="fa fa-heart"></i></button></li>
@@ -249,7 +394,7 @@
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="products_item">
-              <button class="quick_view">Quick View</button>
+              <button class="quick_view" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick View</button>
               <div class="prd_option">
                 <ul class="list-unstyled">
                   <li><button class="cmn_btn wishlist"><i class="fa fa-heart"></i></button></li>
@@ -281,7 +426,7 @@
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="products_item">
-              <button class="quick_view">Quick View</button>
+              <button class="quick_view" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick View</button>
               <div class="prd_option">
                 <ul class="list-unstyled">
                   <li><button class="cmn_btn wishlist"><i class="fa fa-heart"></i></button></li>
@@ -313,7 +458,7 @@
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="products_item">
-              <button class="quick_view">Quick View</button>
+              <button class="quick_view" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick View</button>
               <div class="prd_option">
                 <ul class="list-unstyled">
                   <li><button class="cmn_btn wishlist"><i class="fa fa-heart"></i></button></li>
@@ -354,7 +499,7 @@
         <div class="row g-4">
           <div class="col-lg-3 col-sm-6">
             <div class="products_item">
-              <button class="quick_view">Quick View</button>
+              <button class="quick_view" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick View</button>
               <div class="prd_option">
                 <ul class="list-unstyled">
                   <li><button class="cmn_btn wishlist"><i class="fa fa-heart"></i></button></li>
@@ -386,7 +531,7 @@
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="products_item">
-              <button class="quick_view">Quick View</button>
+              <button class="quick_view" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick View</button>
               <div class="prd_option">
                 <ul class="list-unstyled">
                   <li><button class="cmn_btn wishlist"><i class="fa fa-heart"></i></button></li>
@@ -418,7 +563,7 @@
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="products_item">
-              <button class="quick_view">Quick View</button>
+              <button class="quick_view" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick View</button>
               <div class="prd_option">
                 <ul class="list-unstyled">
                   <li><button class="cmn_btn wishlist"><i class="fa fa-heart"></i></button></li>
@@ -450,7 +595,7 @@
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="products_item">
-              <button class="quick_view">Quick View</button>
+              <button class="quick_view" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick View</button>
               <div class="prd_option">
                 <ul class="list-unstyled">
                   <li><button class="cmn_btn wishlist"><i class="fa fa-heart"></i></button></li>
@@ -497,7 +642,7 @@
         <div class="row g-4">
           <div class="col-lg-3 col-sm-6">
             <div class="products_item">
-              <button class="quick_view">Quick View</button>
+              <button class="quick_view" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick View</button>
               <div class="prd_option">
                 <ul class="list-unstyled">
                   <li><button class="cmn_btn wishlist"><i class="fa fa-heart"></i></button></li>
@@ -529,7 +674,7 @@
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="products_item">
-              <button class="quick_view">Quick View</button>
+              <button class="quick_view" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick View</button>
               <div class="prd_option">
                 <ul class="list-unstyled">
                   <li><button class="cmn_btn wishlist"><i class="fa fa-heart"></i></button></li>
@@ -561,7 +706,7 @@
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="products_item">
-              <button class="quick_view">Quick View</button>
+              <button class="quick_view" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick View</button>
               <div class="prd_option">
                 <ul class="list-unstyled">
                   <li><button class="cmn_btn wishlist"><i class="fa fa-heart"></i></button></li>
@@ -593,7 +738,7 @@
           </div>
           <div class="col-lg-3 col-sm-6">
             <div class="products_item">
-              <button class="quick_view">Quick View</button>
+              <button class="quick_view" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick View</button>
               <div class="prd_option">
                 <ul class="list-unstyled">
                   <li><button class="cmn_btn wishlist"><i class="fa fa-heart"></i></button></li>
@@ -773,7 +918,7 @@
       </div>
     </div>
   </footer>
-  
+
   <section class="footer-bottom">
     <div class="container">
       <div class="footer-btm-details">
