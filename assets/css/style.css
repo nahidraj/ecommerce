@@ -2347,17 +2347,70 @@ footer .contact-details ul li .mail {
 
 .product_details_text .short_info {
 	margin-top: 15px;
+	font-size: 14px;
+	line-height: 22px;
 }
 
+.product_details_text .product_varient {
+	margin-top: 22px;
+}
+
+.product_details_text .product_varient .varient_title {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.filter_by_ {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	overflow: hidden;
+}
+
+.filter_by_ .form-check {
+	width: auto;
+	padding-left: 0;
+}
+
+.filter_by_ .form-check-input {
+	display: none;
+}
+
+.filter_by_ .form-check-input+.form-check-label {
+	/* Unchecked style  */
+	background-color: transparent;
+	border: 1px solid #ddd;
+	color: #292930;
+	padding: 3px 15px;
+	width: auto;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 20px;
+	display: inline-block;
+	backface-visibility: hidden;
+	transition: all 0.3s ease-in-out;
+}
+
+.filter_by_ .form-check-input:checked+.form-check-label {
+	/* Checked style  */
+	background-color: #292930;
+	border-color: #292930;
+	color: #ffffff;
+	backface-visibility: hidden;
+}
 
 .product_details_text .more_info .quantity_and_bag {
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 .quantity-main {
 	border-top: 1px solid var(--border);
-	margin-top: 24px;
-	padding-top: 18px;
+	margin-top: 16px;
+	padding-top: 12px;
 }
 
 .quantity-main p {

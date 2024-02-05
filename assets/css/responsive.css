@@ -282,4 +282,16 @@
     padding: 9px 20px;
     background-color: #f5f5f5;
   }
+
+  .products_item {
+    padding: 14px;
+  }
+
+  .quick_view {
+    padding: 4px 10px;
+  }
+
+  .products_item .image {
+    height: 167px;
+  }
 }
